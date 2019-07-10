@@ -17,4 +17,5 @@ function deleteFromObjectByKey(object, key){
  // let copy = {...object}
  // delete copy.key
 //  return copy
-}
+//}
+
