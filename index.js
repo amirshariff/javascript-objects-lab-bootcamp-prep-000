@@ -10,11 +10,11 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 }
 
 function deleteFromObjectByKey(object, key){
- function a (){
+ function a (object,key){
      delete object.key
 
    }
-function b (){
+function b (object,key){
    let copy = {...object}
  delete copy.key
  return copy
