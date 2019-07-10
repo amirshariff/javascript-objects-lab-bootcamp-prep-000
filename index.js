@@ -13,8 +13,8 @@ function deleteFromObjectByKey(object, key){
   delete object.key
 }
 
-function deleteFromObjectByKey(object, key){
-  let copy = {...object}
-  delete copy.key
-  return copy
+//function deleteFromObjectByKey(object, key){
+ // let copy = {...object}
+ // delete copy.key
+//  return copy
 }
